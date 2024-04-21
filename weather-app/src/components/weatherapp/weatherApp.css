@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.container {
+     width: 110%;  
+    max-width: 700px; 
+    height: auto; 
+    margin-top: 75px; 
+    border-radius: 12px;
+    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
+    font-family: "Nunito";
+}
+
+
+@media (max-width: 800px) {
+    .container {
+        width: 95%; 
+        margin-top: 20px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100%; 
+        margin-top: 10px; 
+    }
+}
+.card{
+    border: 1px solid gray;
+    border-radius: 20px;
+    box-shadow: 0px 5px #626262;
+    margin: 30px;
+    padding-top: 15px;
+}
+.top-bar{
+    display: flex;
+justify-content: center;
+gap: 14px;
+padding-top: 60px;
+font-family: "Nunito";
+}
+.top-bar input{
+    display: flex;
+    width: 362px;
+    height: 78px;
+    background-color: antiquewhite;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 40px;
+    color: #626262;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+.search-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 78px;
+    height: 78px;
+    background: white;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: "Nunito";
+}
+.weather-image{
+    margin-top:30ox;
+    display: flex;
+    justify-content: center;
+}
+.weather-temp{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 120px;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+.weather-location{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 60px;
+    font-weight: 400;
+    font-family: "Nunito";
+}
+.data-container{
+    margin-top: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: "Nunito";
+}
+table {
+    table-layout: fixed;
+    width: 100%;
+    border-bottom: 2px solid #3b2f80;
+    
+  }
+  
+  thead th:nth-child(1) {
+    width: 20%;
+  }
+  
+  thead th:nth-child(2) {
+    width: 40%;
+  }
+  thead th:nth-child(3) {
+    width: 30%;
+  }
+  thead th:nth-child(4) {
+    width: 10%;
+  }
+  th{
+    border-bottom: 1px solid #626262;
+  }
+  th,
+    td {
+  padding: 20px;
+  
+  
+}
+.element{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;  
+}
+.text{
+    font-size: 20px;
+    font-weight: 400;
+    min-width: min-content;
+    display: flex;
+    align-content: flex-start;
+
+    
+}
+.icon{
+    margin-top: 10px;
+    display: flex;
+    
+}
